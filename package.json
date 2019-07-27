@@ -1,12 +1,12 @@
 {
-  "name": "curso-platzi-react-avanzado",
+  "name": "jpmaster-react-avanzado",
   "version": "1.0.0",
   "description": "proyecto ",
   "main": "index.js",
   "scripts": {
     "build": "webpack",
     "dev": "webpack-dev-server",
-    "lint":"standard",
+    "lint": "standard",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -43,6 +43,8 @@
     ]
   },
   "eslintConfig": {
-    "extends" : ["./node_modules/standard/eslintrc.json"]
+    "extends": [
+      "./node_modules/standard/eslintrc.json"
+    ]
   }
 }
